@@ -8,8 +8,8 @@ public class StackEmptyException extends Exception
      */
     private static final long serialVersionUID = 5445659725991433594L;
     
-    public StackEmptyException(String mensaje)
+    public StackEmptyException()
     {
-        super(mensaje);
+        super("La pila se encuentra vacia");
     }
 }

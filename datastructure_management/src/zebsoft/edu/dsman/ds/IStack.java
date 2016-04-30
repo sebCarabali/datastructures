@@ -31,4 +31,9 @@ public interface IStack<T extends Comparable<? super T>>
      */
     public T pop() throws StackEmptyException;
     
+    /**
+     * Vacia la pila.
+     */
+    public void makeEmpty();
+    
 }
